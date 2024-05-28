@@ -14,7 +14,7 @@ class MySQLConnection {
 
     try {
        // Class.forName("com.mysql.jdbc.Driver");
-    	Class.forName("com.mysql.jdbc.Driver");
+    	Class.forName("com.mysql.cj.jdbc.Driver");
     } catch (ClassNotFoundException e) {
         e.printStackTrace();
         // or handle the exception in a meaningful way
