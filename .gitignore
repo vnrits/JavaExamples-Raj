@@ -3,3 +3,6 @@ MysqlCon/.project
 *.jar
 *.zip
 MysqlCon/.classpath
+bin/generics/Shape.class
+bin/*.*
+/bin
