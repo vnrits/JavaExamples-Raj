@@ -40,3 +40,16 @@ java -cp "lib/*;bin" MySQLConnection
 
 IF YOU WANT TO GIVE THE COMPLETE PATH
 java  -cp "D:\BK-training-2024\backend-samples\Raj-Samples\ArrayExamples\" ArrayReverse
+
+
+--------------------------
+
+javac -cp "lib/*" -d bin src/**/*.java
+
+java -cp "lib/*:bin" MySQLConnection
+
+
+java -cp "lib/*;bin" MySQLConnection
+
+
+
